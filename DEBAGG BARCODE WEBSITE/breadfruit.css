@@ -1,0 +1,57 @@
+/* YEA Yellow - #FFF000
+YEA Green - #2E6603 */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+	display: grid;
+	grid-template-rows: 170px 130px 140px 300px;
+}
+div {
+	padding: 10px;
+}
+.titlediv {
+	background-image: url("breadfruit.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 150px;
+	display: grid;
+	place-items: center;
+	width: 100%;
+}
+.title {
+	width: 100%;
+	text-align: center;
+	color: white;
+}
+
+.scientific {
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+h2 {
+	display: block;
+	border-bottom: 2px solid black;
+	margin-bottom: 10px;
+}
+
+p {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 1.2em;
+}
+
+@media screen and (min-width: 768px) {
+	body {
+		grid-template-rows: 200px 130px 140px 300px;
+	}
+	.titlediv {
+		height: 200px;
+	}
+}
