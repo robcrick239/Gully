@@ -18,7 +18,7 @@ div {
 	background-image: url("breadfruit.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 150px;
+	/* height: 150px; */
 	display: grid;
 	place-items: center;
 	width: 100%;
@@ -31,8 +31,6 @@ div {
 
 .scientific {
 	display: block;
-	margin-top: 10px;
-	margin-bottom: 10px;
 }
 
 h2 {
@@ -45,6 +43,14 @@ p {
 	display: block;
 	margin-bottom: 10px;
 	font-size: 1.2em;
+}
+
+.section {
+	border-left: 4px solid #2e6603;
+}
+
+.yellow {
+	border-left: 4px solid #fff000;
 }
 
 @media screen and (min-width: 768px) {
