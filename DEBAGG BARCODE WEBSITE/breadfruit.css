@@ -1,4 +1,4 @@
-/* YEA Yellow - #FFF000
+/* YEA Yellow - #FFFF00
 YEA Green - #2E6603 */
 * {
 	margin: 0;
@@ -9,7 +9,7 @@ YEA Green - #2E6603 */
 
 body {
 	display: grid;
-	grid-template-rows: 170px 130px 140px 300px;
+	grid-template-rows: 170px 130px 140px 300px auto 150px;
 }
 div {
 	padding: 10px;
@@ -22,11 +22,16 @@ div {
 	display: grid;
 	place-items: center;
 	width: 100%;
+	padding: 0;
 }
 .title {
 	width: 100%;
+	height: 100%;
 	text-align: center;
+	display: grid;
+	place-items: center;
 	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
 }
 
 .scientific {
@@ -52,12 +57,34 @@ p {
 .yellow {
 	border-left: 4px solid #fff000;
 }
+.footer {
+	border: none;
+	grid-column: 1/-1;
+	background-color: #ffff00;
+	color: #2e6603;
+	text-align: center;
+	/* background: rgb(46, 102, 3);
+	background: linear-gradient(
+		90deg,
+		rgba(46, 102, 3, 1) 0%,
+		rgba(255, 240, 0, 1) 100%
+	); */
+}
 
 @media screen and (min-width: 768px) {
 	body {
-		grid-template-rows: 200px 130px 140px 300px;
+		grid-template-columns: 50% 50%;
+		grid-template-rows: 250px 130px auto 150px;
+		grid-gap: 10px;
 	}
 	.titlediv {
-		height: 200px;
+		height: 100%;
+		grid-column: 1/-1;
+	}
+	h2 {
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		width: 70%;
 	}
 }
