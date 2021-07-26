@@ -19,7 +19,7 @@ h1 {
 
 .navbar {
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
+	grid-template-columns: repeat(2, 1fr);
 	place-items: center;
 	background-color: #ffff00;
 	color: #2e6603;
@@ -64,4 +64,19 @@ h1 {
 
 .welcome-text h2 {
 	font-size: 3rem;
+}
+
+.footer {
+	border: none;
+	grid-column: 1/-1;
+	background-color: #ffff00;
+	color: #2e6603;
+	text-align: center;
+	/* height: 100px; */
+	/* background: rgb(46, 102, 3);
+	background: linear-gradient(
+		90deg,
+		rgba(46, 102, 3, 1) 0%,
+		rgba(255, 240, 0, 1) 100%
+	); */
 }
