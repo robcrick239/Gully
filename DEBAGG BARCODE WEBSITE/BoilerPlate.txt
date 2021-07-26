@@ -12,7 +12,7 @@
 </head>
 
 <body>
-   
+   <!-- Name, Scientific Name, Picture, Lifespan, Place of origin, Medicinal Benefits, Fun Facts, About -->
    
     <script src="" async defer></script>
 </body>
