@@ -89,3 +89,29 @@ p {
 		width: 70%;
 	}
 }
+
+.navbar {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	place-items: center;
+	background-color: #ffff00;
+	color: #2e6603;
+	padding: 10px;
+}
+
+.navbar li {
+	list-style-type: none;
+	text-decoration: none;
+}
+
+.navbar li a {
+	text-decoration: none;
+	color: #2e6603;
+	padding: 10px;
+	/* border: 1px solid black; */
+}
+
+.navbar li a:hover {
+	background-color: #2e6603;
+	color: #ffff00;
+}
