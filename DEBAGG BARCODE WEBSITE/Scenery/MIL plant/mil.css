@@ -40,7 +40,7 @@ div {
     color: #ffff00;
 }
 .titlediv {
-    background-image: url("breadfruit.jpg");
+    background-image: url("mil.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 150px;
@@ -83,27 +83,11 @@ p {
     border-left: 4px solid #fff000;
 }
 .footer {
-<<<<<<< HEAD
-	border: none;
-	grid-column: 1/-1;
-	background-color: #ffff00;
-	color: #2e6603;
-	text-align: center;
-}
-
-.footer a {
-	text-decoration: none;
-	color: #2e6603;
-}
-.footer a:hover {
-	text-decoration: underline;
-=======
     border: none;
     grid-column: 1/-1;
     background-color: #ffff00;
     color: #2e6603;
     text-align: center;
->>>>>>> 98bafaf (MIL plant added)
 }
 
 .footer a {
