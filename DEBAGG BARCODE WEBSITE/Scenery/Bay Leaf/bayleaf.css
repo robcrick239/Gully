@@ -78,10 +78,12 @@ p {
 
 .section {
 	border-left: 4px solid #2e6603;
+	/* border-bottom: 4px solid #fff000; */
 }
 
 .yellow {
 	border-left: 4px solid #fff000;
+	/* border-bottom: 4px solid #2e6603; */
 }
 .footer {
 	border: none;
@@ -103,7 +105,7 @@ p {
 @media screen and (min-width: 768px) {
 	body {
 		grid-template-columns: 50% 50%;
-		grid-template-rows: auto 250px 130px auto 190px;
+		grid-template-rows: auto 250px 190px auto 150px;
 		/* grid-gap: 10px; */
 	}
 	.navbar {
