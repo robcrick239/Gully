@@ -1,0 +1,122 @@
+/* YEA Yellow - #FFFF00
+YEA Green - #2E6603 */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+	display: grid;
+	/* grid-template-rows: 170px 130px 140px 300px auto 150px; */
+}
+div {
+	padding: 10px;
+}
+.navbar {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	place-items: center;
+	background-color: #ffff00;
+	color: #2e6603;
+	padding: 10px;
+}
+
+.navbar li {
+	list-style-type: none;
+	text-decoration: none;
+}
+
+.navbar li a {
+	text-decoration: none;
+	color: #2e6603;
+	padding: 10px;
+	/* border: 1px solid black; */
+}
+
+.navbar li a:hover {
+	background-color: #2e6603;
+	color: #ffff00;
+}
+.titlediv {
+	background-image: url("hog\ plum.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 150px;
+	display: grid;
+	place-items: center;
+	width: 100%;
+	padding: 0;
+}
+.title {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	display: grid;
+	place-items: center;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.scientific {
+	display: block;
+}
+
+h2 {
+	display: block;
+	border-bottom: 2px solid black;
+	margin-bottom: 10px;
+}
+
+p {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 1.2em;
+}
+
+.section {
+	border-left: 4px solid #2e6603;
+}
+
+.yellow {
+	border-left: 4px solid #fff000;
+}
+.footer {
+	border: none;
+	grid-column: 1/-1;
+	background-color: #ffff00;
+	color: #2e6603;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.footer a {
+	text-decoration: none;
+	color: #2e6603;
+}
+.footer a:hover {
+	text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+	body {
+		grid-template-columns: 50% 50%;
+		grid-template-rows: auto 250px 130px auto 190px;
+		/* grid-gap: 10px; */
+	}
+	.navbar {
+		grid-column: 1/-1;
+	}
+	.titlediv {
+		height: 100%;
+		grid-column: 1/-1;
+	}
+	h2 {
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		width: 70%;
+	}
+}
