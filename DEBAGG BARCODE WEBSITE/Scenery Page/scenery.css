@@ -63,7 +63,7 @@ div {
 	display: grid;
 	place-items: center;
 	color: white;
-	/* text-align: center; */
+	text-align: center;
 }
 
 .tile a {
