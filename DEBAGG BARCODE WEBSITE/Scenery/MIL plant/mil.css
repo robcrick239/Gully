@@ -40,9 +40,10 @@ div {
 	color: #ffff00;
 }
 .titlediv {
-	background-image: url("mil.jpg");
+	background-image: url("mil.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 	height: 150px;
 	display: grid;
 	place-items: center;

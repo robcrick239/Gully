@@ -59,6 +59,11 @@ div {
 
 .tile p {
 	background-color: rgba(0, 0, 0, 0.4);
+	transition: 0.5s ease-in-out;
+	transform-origin: center;
+	/* outline: 0px solid black; */
+	/* border: 0px solid black; */
+
 	height: 100%;
 	width: 100%;
 	display: grid;
@@ -69,6 +74,12 @@ div {
 
 .tile a {
 	text-decoration: none;
+}
+
+.tile p:hover {
+	/* outline: 10px solid black; */
+	/* border: 10px solid black; */
+	background-color: rgba(0, 0, 0, 0.6);
 }
 
 .yellow {
